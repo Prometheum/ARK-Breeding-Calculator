@@ -833,6 +833,18 @@ var breedingController=angular.module('breedingControllers', []).controller('bre
 			eggspeedmult: 4.4,
 			weight: 55.0
 		},
+		Pelagornis: {
+			birthtype: "Incubation",
+			type: "Piscivore",
+			basefoodrate: 0.001543,
+			babyfoodrate: 25.5,
+			extrababyfoodrate: 20,
+			agespeed: 0.000003,
+			agespeedmult: 2.5,
+			eggspeed: 0.005556,
+			eggspeedmult: 3.0,
+			weight: 40
+		},
 
 		Phiomia: {
 			birthtype: "Gestation",
